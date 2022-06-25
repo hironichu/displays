@@ -16,7 +16,7 @@ function readPointer(v: bigint): Uint8Array {
 const opts = {
   name: "displays",
   url: (new URL("../lib", import.meta.url)).toString(),
-  policy: CachePolicy.NONE,
+  policy: undefined
 };
 const _lib = await prepare(opts, {
   displays: { parameters: [], result: "pointer", nonblocking: false },
