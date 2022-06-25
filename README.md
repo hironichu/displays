@@ -8,7 +8,7 @@ This is WIP and just for a project im doing, feel free to use it.
 
 Usage : 
 ```typescript
-import display from "https://github.com/hironichu/displays/mod.ts";
+import display from "https://raw.githubusercontent.com/hironichu/displays/main/mod.ts";
 
 console.log(display);
 
